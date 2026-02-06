@@ -3,7 +3,6 @@ A = 1;
 Kp = 1.5;   
 s = tf('s');
 G = 1/(A*s); 
-
 % Feedback system
 H_desired = 2; 
 sys_cl = feedback(Kp*G,1); 
